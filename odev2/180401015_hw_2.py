@@ -53,5 +53,5 @@ for i in histogram:
 list3=bubble_sort(list2)
 
 dosya1=open(sys.argv[2]+"180401015_hw_2_output.txt", "w")
-dosya1.write("Medyan ",str(median(list3)))
-dosya1.write("Ortalama ",str(mean(list3)))
+dosya1.write("Medyan "+str(median(list3))+"\n")
+dosya1.write("Ortalama "+str(mean(list3)))
