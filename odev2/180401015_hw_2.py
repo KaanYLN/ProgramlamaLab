@@ -40,8 +40,9 @@ def median(my_list):
         print median
     return median
 
+list=[]
+
 with open(sys.argv[1]+"input_hw_2.csv","r") as file:
-    list=[]
     for line in file:
         list.append(int(line.split(";")[3].split("-")[1]))
 print list
