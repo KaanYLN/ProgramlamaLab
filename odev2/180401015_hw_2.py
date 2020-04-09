@@ -1,5 +1,6 @@
 import sys
 
+#Histogram
 def my_frequency_with_dict(my_list):
     frequenct_dict={}
     for i in my_list:
@@ -9,7 +10,7 @@ def my_frequency_with_dict(my_list):
             frequenct_dict[i]=1
     return frequenct_dict
 
-def mean(my_list):
+def mean(my_list): 
     s,t=0,0
     for item in my_list:
         s+=1
