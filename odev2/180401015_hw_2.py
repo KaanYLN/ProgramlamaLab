@@ -46,10 +46,10 @@ list=[]
 with open(sys.argv[1]+"input_hw_2.csv","r") as file:
     for line in file:
         list.append(int(line.split(";")[3].split("-")[1]))
-print list
+#print list
 
 histogram=my_frequency_with_dict(list)
-print histogram
+#print histogram
 for i in histogram:
     list2.append(histogram[i])
 list3=bubble_sort(list2)
